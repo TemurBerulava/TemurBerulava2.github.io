@@ -1,0 +1,215 @@
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+    background-color: black;
+    color: #979797cd;
+    font-family: "Roboto";
+    font-weight: 400;
+
+}
+
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+main {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 77vh;
+}
+
+#logo {
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 152px;
+}
+
+#burger-icon {
+    display: none;
+    margin-top: 15px;
+    padding: 0;
+}
+
+#search {
+    display: none;
+    margin: 0;
+    padding: 0px;
+    height: 30px;
+    margin-right: 3px;
+}
+
+#result {
+    position: relative;
+    top: -2px;
+    margin: 0;
+    padding: 0px;
+    background-color: black;
+  }
+  #result ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 6px;
+    overflow-y: hidden;
+    max-height: 57vh;
+    border-radius: 10px;
+  }
+  #result ul li {
+    padding: 10px 0px 10px 0px;
+    background-color: #FFFFFF;
+    text-indent: 30px;    
+  }
+
+  #result ul li:hover {
+    background: rgb(195, 195, 195);
+  }
+
+
+  #main-content {
+    margin-left: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+#main-section {
+   margin-right: 25px;
+   max-height: 100vh;
+   width: 1000px;
+   background: gray;
+   border-radius: 30px;
+
+}
+
+
+#company-info {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color:black;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+}
+
+#company-name {
+    font-size: 50px;
+    color:  black;
+    margin: 0;
+}
+
+#company-email {
+    font-size: 16px;
+    margin: 0;
+}
+
+#boxes {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 45px;
+}
+
+#boxes-title {
+    font-size: 16px;
+    margin: 0;
+    color: black;
+}
+
+#boxes-input {
+    border-radius: 10px;
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#cargo-bays-section {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 45px;
+}
+
+#cargo-bays-title {
+    margin: 0;
+    font-size: 30px;
+    color:black;
+}
+
+#cargo-bays {
+    font-size: 40px;
+    color: red;
+    margin-top: 10px;
+}
+
+#nav {
+    margin-left: 40px;
+    height: 540px;
+    display: block;
+}
+
+#nav-title {
+    font-size: 20px;
+}
+
+nav ul {
+   list-style: none;
+   padding: 0;
+   font-size: 16px;
+   overflow: auto;
+   overflow-x: hidden;
+   height: 65vh;
+   width: 300px;
+}
+
+nav li {
+    margin-bottom: 16px;
+    height: 30px;
+    width: 270px;
+    line-height: 30px;
+}
+
+nav li:hover {
+    cursor: pointer;
+    color: #3c3a3a;
+    border-radius: 10px;
+}

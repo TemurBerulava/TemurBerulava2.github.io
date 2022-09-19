@@ -1,0 +1,24 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+::-webkit-scrollbar {
+    background-color: rgba(255, 255, 255, 0.052);
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-button {
+    display: hidden;
+    height: 0px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.233);
+    border-radius: 10px;
+}
